@@ -1,0 +1,52 @@
+img{
+    width: auto;
+    height: auto;
+}
+
+.text-center{
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+}
+
+input[name="submit_button"]{
+    width: 60px;
+}
+
+input{
+    width: 40px;
+}
+
+
+body{
+    background-color:paleturquoise;
+}
+h1{
+    text-align: center;
+    color: crimson;
+}
+.table button {
+    background-color: #da5b06; 
+    border: 1px solid rgb(255, 255, 255); 
+    color: rgb(0, 0, 0); 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left;
+  }
+  
+  .table button:not(:last-child) {
+    border-right: none;
+  }
+  
+  .table:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .table button:hover {
+    background-color: #5700b4;
+  }
+  .table button:focus {
+    background-color: #b40000;
+  }
